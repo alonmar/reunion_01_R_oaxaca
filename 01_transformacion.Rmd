@@ -1,0 +1,127 @@
+---
+title: "Manipulacion de datos con Tidyverse"
+output: html_notebook
+---
+
+Instalamos el paquete gapminder
+
+
+```{r}
+#install.packages("gapminder")
+
+```
+
+Cargamos los paquetes necesarios
+
+```{r}
+library(gapminder) # cargamos los datos
+library(tidyverse)
+```
+
+
+Veamos nuestro dataset
+
+```{r}
+gapminder
+```
+
+En el siguiente link encontraras una explicación de los datos
+https://www.youtube.com/watch?v=jbkSRLYSojo
+
+
+```{r}
+summary(gapminder)
+```
+
+# Tu turno 1
+
+Ya tenemos cargado nuestro dataset
+
+Ahora crea una variable donde estén todos los Países con población menor o igual a  *2793664*
+
+
+```{r}
+
+
+```
+
+
+# Tu turno 2
+
+Ahora crea una variable donde estén todos los Países de Asia
+
+```{r}
+
+
+```
+
+
+# Tu turno 3
+
+Ahora crea una variable y guarda a los Países del año de 1952 en el continente de África
+
+```{r}
+
+```
+
+# Tu turno 4
+
+Países donde el gdpPercap es superior a *7215* o la esperanza de vida sea igual o superior a los 60 años
+
+```{r}
+
+
+```
+
+# Tu turno 5
+
+Todos los Países de Asia, Oceanía o África
+
+
+
+```{r}
+
+
+```
+
+# Tu turno 6
+
+Cual es el menor pib per cápita registrado?
+
+```{r}
+
+
+```
+
+
+# Tu turno 7
+
+Y el mayor?
+
+```{r}
+
+
+```
+
+# Tu turno 8
+
+Puedes decir que país y en que año se tiene la menor población con el mayor pib per cápita?
+
+```{r}
+
+
+```
+
+
+# Tu turno 9
+
+Usa  " %>% " para crear la siguiente secuencia
+
+- Filtra los datos de gapminder donde solo se encuentre el continente de Africa, para el año de 1972
+- Selecciona solo las columnas country y gdpPercap
+- Ordénalos de tal manera que localicemos que pais tuvo el pib per cápita mas alto
+
+```{r}
+
+
+```

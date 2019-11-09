@@ -1,0 +1,96 @@
+---
+title: "mutate() y summarize"
+output: html_notebook
+---
+
+Cargamos los paquetes necesarios
+
+```{r}
+library(tidyverse)
+library(babynames)
+```
+
+# Tu turno 1
+
+Usando la función summarize() muestra los siguientes datos
+
+1.- El primer(mínimo) año en babynames
+2.- El ultimo(máximo) año en babynames
+3.- El total de todos los niños registrados
+
+*Recuerda las funciones min() y max()*
+
+```{r}
+
+```
+
+
+# Tu turno 2
+
+Extrae todas las observaciones que sean iguales a tu nombre.
+¿Cuántos son? ¿En que año apareció por primera vez tu nombre?
+
+
+```{r}
+
+
+```
+
+
+
+# Tu turno 3
+
+Ahora ¿podrías decir en cuantos años aparece tu nombre?
+
+```{r}
+
+```
+
+# Tu turno 4
+
+¿Cuántos niños fueron registrados en cada año?
+
+```{r}
+
+
+```
+
+# Tu turno 5
+
+Para el año 2015 ¿Cuántos hombres y cuantas mujeres se encuentran registradas?
+
+```{r}
+
+
+```
+
+# Tu turno 5
+
+Usando *group_by*, *summarise* y *arrange*, muestra cual es el nombre mas popular
+
+
+```{r}
+
+
+```
+
+# Tu turno 6
+
+Crearemos una versión reducida del dataset `flights`
+
+```{r}
+flights_reducido <- flights %>% select(year:day,
+                                       ends_with("delay"),
+                                       distance,
+                                       air_time)
+
+flights_reducido
+```
+
+
+Ahora crea dos nuevas columnas, la primera se llamara *distancia_metros* y como su nombre lo indica contendrá la distancia pero en metros, y por otra parte crearemos la columna *horas_air_time* la cual contiene el tiempo de vuelo en horas
+
+```{r}
+
+
+```
