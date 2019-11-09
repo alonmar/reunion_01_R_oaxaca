@@ -1,0 +1,19 @@
+---
+title: "Paquetes necesarios"
+output: html_notebook
+---
+
+Instalamos Paquetes necesarios
+
+Bienvenido!
+
+A continuacion instalaremos los paquetes que usaremos el día de hoy.
+
+```{r}
+
+install.packages("tidyverse")
+install.packages("gapminder")
+install.packages("babynames")
+
+```
+
